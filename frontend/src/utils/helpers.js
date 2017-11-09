@@ -9,7 +9,7 @@ export const params = {
     }
 }
 
-// transform collection (array of objects) into one object with ids as keys
+// transform collection (array of  objects) into one object with ids as keys
 export const normalize = (collection) => {
     let normalizedData = {};
     collection.forEach(item => {
