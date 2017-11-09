@@ -1,0 +1,214 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.post {
+  background-color: #fff;
+  border: 1px solid yellow;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+.post__headline {
+  font-size: 22px;
+}
+.post__info {
+  font-size: 13px;
+  color: gray-dark;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.post__content {
+  margin-bottom: 30px;
+}
+
+.posts-list__item {
+  border: none;
+  margin-bottom: 20px;
+}
+
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  color: black;
+  background-color: gray-light !important;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 300 !important;
+}
+h1 a, h2 a, h3 a, h4 a {
+  font-weight: 300;
+  text-transform: none;
+  color: orange;
+}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover {
+  color: #e69500;
+}
+
+h1:not(.logo) {
+  font-size: 36px !important;
+  margin-bottom: 30px !important;
+}
+
+a:hover, a:focus, a:visited {
+  text-decoration: none !important;
+}
+
+.app-content {
+  padding: 50px 0;
+}
+
+.header {
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+.header__links {
+  align-items: center;
+}
+.header h1 {
+  line-height: 1;
+  margin: 0;
+}
+.header h1 a {
+  display: block;
+  font-size: 28px;
+  font-weight: 300;
+  color: black;
+  line-height: 1;
+}
+.header .button {
+  padding: 0;
+}
+.header .button a {
+  align-items: center;
+  color: #fff;
+  padding: 11px 15px;
+}
+.header .button .fa {
+  margin-right: 5px;
+}
+
+.home-sidebar {
+  padding-top: 40px;
+}
+.home-sidebar h3 {
+  font-size: 18px;
+  color: gray-dark;
+  margin-bottom: 15px;
+}
+.home-sidebar li {
+  padding-left: 13px;
+  margin-bottom: 10px;
+  border-left: 3px solid gray;
+}
+.home-sidebar li:hover {
+  border-left: 6px solid orange;
+}
+.home-sidebar li:hover a {
+  color: orange;
+}
+.home-sidebar li a {
+  display: block;
+  color: black;
+}
+
+.form--post textarea {
+  min-height: 200px;
+}
+
+.form-control {
+  border-radius: 2px !important;
+}
+
+.sort-select {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.sort-select form {
+  justify-content: flex-end;
+}
+.sort-select label {
+  margin-right: 5px;
+}
+
+.vote-score-controls > span {
+  cursor: pointer;
+}
+.vote-score-controls .fa {
+  font-size: 20px;
+}
+
+.button {
+  cursor: pointer;
+  border: none !important;
+  border-radius: 2px !important;
+}
+.button--submit {
+  color: #fff !important;
+  background-color: orange !important;
+}
+.button--submit:hover {
+  background-color: #e69500 !important;
+}
+.button--submit:hover a {
+  color: #fff !important;
+}
+.button .fa {
+  font-size: 18px;
+}
+.button + .button {
+  margin-left: 10px;
+}
+
+.actions-block {
+  font-size: 20px;
+  justify-content: space-between;
+}
+.actions-block .fa {
+  color: black;
+  cursor: pointer;
+}
+.actions-block .fa:not(:last-of-type) {
+  margin-right: 10px;
+}
+.actions-block .fa:hover {
+  color: orange;
+}
+
+.error-message {
+  font-size: 13px;
+  color: orange;
+}
+
+.modal-title {
+  font-size: 20px;
+}
