@@ -17,7 +17,7 @@ class Header extends Component {
                 <h1 className="logo"><Link to="/">Readable</Link></h1>
                 <div className="header__links">
                     <CategoriesList categories={categories} currentCategory={currentCategory} />
-                    <Button className="button button--submit"><Link to="/add-post"><Icon name="plus-circle" />Add new post</Link></Button>
+                    <Button className="button button--submit"><Link to="/add-post"><Icon name="plus-circle" />Add New Post</Link></Button>
                 </div>
             </div>
         );
